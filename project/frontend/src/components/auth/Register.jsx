@@ -15,14 +15,13 @@ const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
-const API_BASE = process.env.REACT_APP_API;  
 
   const handleSendCode = async () => {
     if (!email || !username || !password || !confirmPassword) {
      toast.warning("Vui lòng nhập đầy đủ thông tin");
       return;
     }
-
+    const API_BASE = process.env.REACT_APP_API;  
     const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d).{8,}$/;
     if (!passwordRegex.test(password)) {
       toast.warning("Mật khẩu phải có ít nhất 8 ký tự, bao gồm chữ và số");
