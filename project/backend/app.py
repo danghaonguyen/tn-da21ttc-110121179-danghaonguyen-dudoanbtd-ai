@@ -26,6 +26,10 @@ app.config['MYSQL_PASSWORD'] = MYSQL_PASSWORD
 app.config['MYSQL_DB'] = MYSQL_DB
 mysql = MySQL(app)
 
+@app.route('/')
+def home():
+    return "Flask backend is running!"
+
 # Gửi mã xác thực code Gmail
 @app.route('/send_verification_code', methods=['POST'])
 def send_verification_code():
@@ -290,5 +294,6 @@ def send_email(to, subject, body):
     except Exception as e:
         print(f"[❌] Gửi email lỗi: {e}")
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+    # app.run(debug=True)
+
