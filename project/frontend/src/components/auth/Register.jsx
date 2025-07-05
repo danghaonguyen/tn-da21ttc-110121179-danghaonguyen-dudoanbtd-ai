@@ -34,6 +34,7 @@ const Register = () => {
     }
 
     try {
+     //await axios.post("http://127.0.0.1:5000/send_verification_code", {
       await axios.post(`${API_BASE}/send_verification_code`, {
         email: email,
       }, {
