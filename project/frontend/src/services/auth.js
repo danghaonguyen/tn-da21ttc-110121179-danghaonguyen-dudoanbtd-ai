@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // const API_BASE = "http://127.0.0.1:5000";
-const API_BASE_URL = process.env.REACT_APP_API;
+const API_BASE = process.env.REACT_APP_API;
 
 export async function registerUser(data) {
   return axios.post(`${API_BASE}/register`, {
