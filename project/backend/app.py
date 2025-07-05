@@ -15,8 +15,12 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
-app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
-app.config['SESSION_COOKIE_SECURE'] = False
+# app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
+# app.config['SESSION_COOKIE_SECURE'] = False
+
+app.config['SESSION_COOKIE_SAMESITE'] = 'None'
+app.config['SESSION_COOKIE_SECURE'] = True
+
 
 # CORS(app, supports_credentials=True, origins=["http://127.0.0.1:3000"])
 
