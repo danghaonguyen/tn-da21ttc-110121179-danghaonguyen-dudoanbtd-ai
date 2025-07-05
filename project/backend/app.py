@@ -18,7 +18,10 @@ app.secret_key = os.urandom(24)
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
 app.config['SESSION_COOKIE_SECURE'] = False
 
-CORS(app, supports_credentials=True, origins=["http://127.0.0.1:3000"])
+CORS(app, supports_credentials=True, origins=[
+    "http://127.0.0.1:3000",
+    "https://tên-frontend.vercel.app"
+])
 
 app.config['MYSQL_HOST'] = MYSQL_HOST
 app.config['MYSQL_USER'] = MYSQL_USER
