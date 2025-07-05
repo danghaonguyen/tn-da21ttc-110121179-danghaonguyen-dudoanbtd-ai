@@ -22,7 +22,7 @@ app.config['SESSION_COOKIE_SECURE'] = False
 
 CORS(app, supports_credentials=True, origins=[
     "http://127.0.0.1:3000",
-    "tn-da21ttc-110121179-danghaonguyen-rho.vercel.app"
+    "https://tn-da21ttc-110121179-danghaonguyen-rho.vercel.app"
 ])
 
 app.config['MYSQL_HOST'] = MYSQL_HOST
