@@ -287,8 +287,8 @@ def check_session():
 
 def send_email(to, subject, body):
     try:
-        sender_email = os.environ.get("EMAIL_USER")
-        app_password = os.environ.get("EMAIL_PASSWORD")
+        sender_email = "thayhkk@gmail.com"
+        app_password = "tcxbblwjwukysutk"
         msg = MIMEMultipart()
         msg["From"] = sender_email
         msg["To"] = to
@@ -302,7 +302,6 @@ def send_email(to, subject, body):
         print(f"[✅] Đã gửi email tới {to}")
     except Exception as e:
         print(f"[❌] Gửi email lỗi: {e}")
-
 
 # if __name__ == "__main__":
     # app.run(debug=True)
