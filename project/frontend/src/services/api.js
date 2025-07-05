@@ -19,8 +19,8 @@ export async function predictDiabetes(data) {
 import axios from 'axios';
 
 // Tự động dùng biến môi trường khi hosting, fallback localhost khi dev
-const API_BASE_URL =
-  process.env.REACT_APP_API || "http://127.0.0.1:5000";
+const API_BASE_URL = process.env.REACT_APP_API;
+
 
 export async function predictDiabetes(data) {
   try {
