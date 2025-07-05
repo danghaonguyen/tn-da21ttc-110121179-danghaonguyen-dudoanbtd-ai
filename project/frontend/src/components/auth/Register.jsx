@@ -34,11 +34,17 @@ const Register = () => {
     }
 
     try {
-     await axios.post("http://127.0.0.1:5000/send_verification_code", {
+     /*await axios.post("http://127.0.0.1:5000/send_verification_code", {
         email: email,
       }, {
-        withCredentials: true // Bắt buộc để gửi session cookie
+        withCredentials: true 
+      });*/
+      await axios.post(`${API_BASE}/send_verification_code`, {
+        email: email,
+      }, {
+          withCredentials: true
       });
+
 
       toast.success("✅ Đã gửi mã xác thực đến email");
       setStep("verify");
