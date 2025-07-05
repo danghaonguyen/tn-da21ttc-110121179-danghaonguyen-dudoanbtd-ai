@@ -15,6 +15,7 @@ const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
+const API_BASE = process.env.REACT_APP_API;  
 
   const handleSendCode = async () => {
     if (!email || !username || !password || !confirmPassword) {
