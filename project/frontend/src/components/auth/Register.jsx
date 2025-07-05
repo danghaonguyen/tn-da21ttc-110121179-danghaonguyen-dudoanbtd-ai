@@ -5,6 +5,8 @@ import { registerUser } from "../../services/auth";
 import "./css/Auth.css";
 import {toast, ToastContainer} from "react-toastify";
 
+const API_BASE = process.env.REACT_APP_API;  
+
 const Register = () => {
   const [step, setStep] = useState("form");
   const [username, setUsername] = useState("");
@@ -21,7 +23,7 @@ const Register = () => {
      toast.warning("Vui lòng nhập đầy đủ thông tin");
       return;
     }
-    const API_BASE = process.env.REACT_APP_API;  
+ 
     const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d).{8,}$/;
     if (!passwordRegex.test(password)) {
       toast.warning("Mật khẩu phải có ít nhất 8 ký tự, bao gồm chữ và số");
@@ -44,8 +46,7 @@ const Register = () => {
       }, {
           withCredentials: true
       });
-
-
+      
       toast.success("✅ Đã gửi mã xác thực đến email");
       setStep("verify");
     } catch (err) {
