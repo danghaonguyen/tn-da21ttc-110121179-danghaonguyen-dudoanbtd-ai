@@ -8,7 +8,7 @@
 """ SECRET_KEY = "your_super_secret_key"
  """
 
-MYSQL_HOST = 'mysql.railway.internal'
+MYSQL_HOST = 'shinkansen.proxy.rl'
 MYSQL_USER = 'root'
 MYSQL_PASSWORD = 'hmCIMPACjgzLWIVnfZAvHdcZBtiDwMZP'
 MYSQL_DB = 'railway'
