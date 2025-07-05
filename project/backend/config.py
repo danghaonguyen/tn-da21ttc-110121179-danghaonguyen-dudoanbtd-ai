@@ -13,3 +13,6 @@ MYSQL_USER = 'sql12788436'
 MYSQL_PASSWORD = 'KBmleBuMCe'
 MYSQL_DB = 'sql12788436'
 MYSQL_CURSORCLASS = 'DictCursor'
+
+EMAIL_USER=thayhkk@gmail.com
+EMAIL_PASSWORD=tcxbblwjwukysutk
