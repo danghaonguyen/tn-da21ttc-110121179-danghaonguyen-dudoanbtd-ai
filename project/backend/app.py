@@ -14,9 +14,10 @@ from datetime import datetime, timedelta
 
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)
+# app.secret_key = os.urandom(24)
 # app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
 # app.config['SESSION_COOKIE_SECURE'] = False
+app.secret_key = "haonguyen-khoaluantotnghiep-2025"
 
 app.config['SESSION_COOKIE_SAMESITE'] = 'None'
 app.config['SESSION_COOKIE_SECURE'] = True
