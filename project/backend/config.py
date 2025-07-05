@@ -8,9 +8,10 @@
 """ SECRET_KEY = "your_super_secret_key"
  """
 
-MYSQL_HOST = 'sql12.freesqldatabase.com'
-MYSQL_USER = 'sql12788436'
-MYSQL_PASSWORD = 'KBmleBuMCe'
-MYSQL_DB = 'sql12788436'
+MYSQL_HOST = 'mysql.railway.internal'
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = 'hmCIMPACjgzLWIVnfZAvHdcZBtiDwMZP'
+MYSQL_DB = 'railway'
 MYSQL_CURSORCLASS = 'DictCursor'
+MYSQL_PORT = 3306
 
