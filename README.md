@@ -10,7 +10,7 @@
 - Trang **Trang chủ** (giới thiệu ứng dụng, hướng dẫn)
 - **Trang dự đoán** nguy cơ tiểu đường bằng cách nhập chỉ số y tế
 - Hiển thị **kết quả dự đoán** kèm mức độ nguy cơ (thấp, trung bình, cao)
-- Biểu đồ **so sánh chỉ số của bạn với chỉ số bình thường**
+- Biểu đồ **so sánh chỉ số của cá nhân với chỉ số bình thường**
 - Trang **Lịch sử dự đoán**: Xem lại toàn bộ kết quả và thông tin đã nhập
 
 ---
