@@ -17,20 +17,20 @@
 
 ## 🚀 Hướng dẫn chạy ứng dụng
 
-git Clone về máy: 
+git clone để lấy source code về máy
 
 ### 1. Backend – Flask API (Python)
 
-cd backend
-python app.py
+# cd backend
+# python app.py
 
 
 ### 2. Frontend – ReactJs
 
-Cd frontend
-npm start
+# Cd frontend
+# npm start
 
 ### 3. CSDL - MySQL
 
--> Lấy csdl trong thư mục database:
-diabetes_app.sql
+# -> Lấy csdl trong thư mục database:
+# diabetes_app.sql
