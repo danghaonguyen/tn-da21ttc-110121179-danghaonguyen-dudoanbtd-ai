@@ -21,15 +21,13 @@ git clone để lấy source code về máy
 
 ---
 
-### 1. Backend – Flask API (Python)
-<br>
+### 1. Backend – Flask API (Python)<br>
 cd backend<br>
 python app.py
 
 ---
 
-### 2. Frontend – ReactJs
-<br>
+### 2. Frontend – ReactJs<br>
 cd frontend<br>
 npm start
 
