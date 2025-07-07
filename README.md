@@ -26,8 +26,8 @@ git clone để lấy source code về máy
 
 
 ### 2. Frontend – ReactJs
-
-# Cd frontend
+<br>
+cd frontend
 # npm start
 
 ### 3. CSDL - MySQL
