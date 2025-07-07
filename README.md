@@ -34,5 +34,4 @@ npm start
 ---
 
 ### 3. CSDL - MySQL <br>
--> Lấy csdl trong thư mục database:<br>
-diabetes_app.sql
+-> Lấy csdl trong thư mục database: diabetes_app.sql
