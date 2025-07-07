@@ -35,7 +35,6 @@ npm start
 
 ---
 
-### 3. CSDL - MySQL
-<br>
+### 3. CSDL - MySQL <br>
 -> Lấy csdl trong thư mục database:<br>
 diabetes_app.sql
