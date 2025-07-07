@@ -7,7 +7,7 @@
 ### 🧩 Các tính năng chính:
 
 - Trang **Đăng nhập / Đăng ký**
-- Trang **Trang chủ** (giới thiệu ứng dụng, hướng dẫn, liên hệ)
+- Trang **Trang chủ** (giới thiệu ứng dụng, hướng dẫn)
 - **Trang dự đoán** nguy cơ tiểu đường bằng cách nhập chỉ số y tế
 - Hiển thị **kết quả dự đoán** kèm mức độ nguy cơ (thấp, trung bình, cao)
 - Biểu đồ **so sánh chỉ số của bạn với chỉ số bình thường**
